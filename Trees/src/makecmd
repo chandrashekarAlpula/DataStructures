@@ -1,0 +1,3 @@
+g++ -I ../include/ -I../../Queues/includes/ -L ../../Queues/src/ -lQueue -c BST.cpp
+ar rcs libBST.a BST.o
+g++ BstSample.cpp -I ../include/ -L. -lBST
